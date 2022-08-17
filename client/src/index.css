@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    body { 
-        @apply bg-body
-     }
+  body {
+    @apply bg-body;
+  }
+
+  * {
+    @apply font-poppins;
+  }
 }

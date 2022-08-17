@@ -1,9 +1,8 @@
-import './index.css'
+import "./index.css";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
-  return (
-    <h1 className="text-xs font-bold text-green-700">Working!</h1>
-  );
+  return <Navbar />;
 }
 
 export default App;
